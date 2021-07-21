@@ -1,0 +1,153 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    width: 100%;
+}
+.flex-container{
+    min-width: 100%;
+    display: flex;
+    background-color: black;
+    height: 100px; 
+}
+.menu{
+    color: white;
+    min-width: 200px;
+    text-align: center;
+    padding-top: 37px;
+    font-size: 1.5em;
+}
+.banner-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+#image{
+    width: 100%;
+    height: 750px;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    font-size: 5em;
+    left: 30%;
+}
+.subtitle{
+    position: absolute;
+    top: 45%;
+    font-size: 2.5em;
+    left: 37%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.skill-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 360px;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill1{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;  
+    justify-content: center;
+}
+#img{
+    width: 150px;
+    height: 200px;
+    margin-right: 50px;
+}
+.skill-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+.skill-title{
+    margin-left: 45%;
+    margin-top: 100px;
+}
+hr{
+    display: flex;
+    width: 70vw;
+    flex-direction: row;
+    margin-left: 33%;
+    max-width: 500px;
+}
+.portfolio-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 50px;
+    flex-direction: row;
+}
+.portfolio-title{
+    margin-left: 43%;
+    display: flex;
+    margin-top: 100px;
+}
+#img1{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#portfolio-text{
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.portfolio-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: max-content;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: auto;
+}
+.text{
+    margin-left: 20px;
+}
+.testimonials{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.client-name{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    margin-left: 44%;
+    font-size: 2em;
+}
+.client-designation{
+    width: 100%;
+    height: 50px;
+    margin-left: 36%;
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: gray;
+}
+.client-testimonial{
+    width: 100%;
+    height: 50px;
+    margin-left: 31%;
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: gray;
+    font-style: italic;
+}
